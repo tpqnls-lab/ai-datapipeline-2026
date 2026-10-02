@@ -52,7 +52,6 @@ ex) 쇼핑몰 매출 데이터 분석 예
 - [보기2](./chapt02/판다스기초.ipynb)
 - [데이터집계](./chapt02/판다스집계.ipynb)
 
-
 #### Visualization - Matplotlib
 
 - Pandas, NumPy로 정제한 데이터를 시각화하는 라이브러리(패키지)
@@ -63,3 +62,18 @@ ex) 쇼핑몰 매출 데이터 분석 예
   - 두 숫자 데이터 관계 : 산점도
   - 이상치 확인 : 박스플롯
 - [시각화기초](./chapt03/시각화기초.ipynb)
+
+#### Selenium
+
+[](https://github.com/hugoMGSung/ai-datapipeline-2026/blob/main/README.md#selenium)
+
+* 웹 페이지에서 필요한 데이터를 수집해오는 자동화 라이브러리(패키지)
+* 데이터 수집 방법 : OpenAPI 사용, 스크래핑
+* 기본적  **HTML** ,  **CSS** , JS..
+  * [웹구조](https://github.com/hugoMGSung/ai-datapipeline-2026/blob/main/chapt04/%EC%9B%B9%EA%B5%AC%EC%A1%B0.ipynb)
+  * CSS의 경우도 속성명에만 신경쓰면 됨. `class="class_name"`, `id="id_name"` 등 만 집중적으로 확인
+  * 웹페이지를 html로만 구현하지 않고 js로 동적으로 만드는 경우도 있음. 웹 스크래핑이 어려움
+  * 필요한 경우는 `페이지 소스 보기`로 한줄씩 확인하면서 처리해야 할 경우도 있음
+* [셀레니움기초](https://github.com/hugoMGSung/ai-datapipeline-2026/blob/main/chapt04/%EC%85%80%EB%A0%88%EB%8B%88%EC%9B%80%EA%B8%B0%EC%B4%88.ipynb)
+* 동적페이지_스크래핑
+* 다나와_스크래핑
